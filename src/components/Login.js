@@ -22,7 +22,7 @@ export default function Login() {
             password: password
         }
 
-        const promise = axios.post("https://mock-api.driven.com.br/api/v4/driven-plus/auth/login", body)
+        const promise = axios.post("http://localhost:5000/", body)
         promise.then (res => {
 
             console.log(res.data);
