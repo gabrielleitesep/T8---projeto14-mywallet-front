@@ -11,12 +11,13 @@ import { useState } from "react"
 export default function App() {
 
     const [dados, setDados] = useState('')
+    const [name, setName] = useState('')
 
     return (
 
         <>
             <BrowserRouter>
-                <UserContext.Provider value={{ dados, setDados }}>
+                <UserContext.Provider value={{ dados, setDados, name, setName}}>
                     <Routes>
                         <Route path='/cadastro' element={<Cadastro />} />
                         <Route path='/' element={<Login />} />

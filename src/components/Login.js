@@ -11,7 +11,7 @@ export default function Login() {
     const [email, setEmail] = useState('')
     const [password, setPassword] = useState('')
     const navigate = useNavigate()
-    const {setDados} = useContext(UserContext)
+    const {setDados, setName} = useContext(UserContext)
 
 
     function fazerLogin (e){
@@ -28,6 +28,7 @@ export default function Login() {
             console.log(res.data);
             window.localStorage.setItem("index", JSON.stringify(res.data))
             setDados(res.data)
+            setName(res.data.name)
             navigate("/extrato")
         })
         promise.catch(err => {

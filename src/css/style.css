@@ -89,4 +89,118 @@ a {
     margin-top: 25px;
     padding-right: 140px;
     padding-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+.headerExtrato {
+    width: 100%;
+    height: 78px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+}
+.headerExtrato img{
+    width: 23px;
+    height: 23px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+.headerExtrato h1{
+    color: white;
+    font-weight: 700;
+    font-size: 26px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.conteudoExtrato {
+    background-color: white;
+    width: 88%;
+    height: 450px;
+    display: flex;
+    margin: 0 auto;
+    border-radius: 5px;
+    flex-direction: column;
+}
+.conteudoExtrato h2{
+    color: rgba(134, 134, 134, 1);
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 200px;
+    padding-left: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+.conteudoFooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.novaEntrada {
+    background-color: rgba(163, 40, 214, 1);
+    width: 45%;
+    height: 114px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 7px;
+    padding-top: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+.novaSaida {
+    background-color: rgba(163, 40, 214, 1);
+    width: 45%;
+    height: 114px;
+    margin-left: 7px;
+    margin-right: 20px;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+.conteudoFooter h1{
+    color: white;
+    font-weight: 700;
+    font-size: 17px;
+    padding-top: 50px;
+}
+.operacao {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 3px;
+    justify-content: space-between;
+}
+.operacao h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.operacao p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin-right: 40px;
+    margin-top: 20px;
+}
+.saldo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: -30px;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding-bottom: 10px;
+}
+.saldo h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+}
+.saldo h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    font-style: italic;
 }
