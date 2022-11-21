@@ -55,8 +55,9 @@ export default function Extrato() {
             return (
 
                 <div className="operacao">
+                    <h2>{e.time}</h2>
                     <h1>- {e.description}</h1>
-                    <p>R$ {e.value}</p>
+                    <p>R$ {Number(e.value).toFixed(2)}</p>
                 </div>
             )
         })
